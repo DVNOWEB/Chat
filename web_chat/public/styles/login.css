@@ -1,0 +1,16 @@
+@import './default.css';
+
+.headline{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+b{
+ color: red;
+}
+
+.login_card{
+  text-align: center;
+  max-width: 500px;
+}

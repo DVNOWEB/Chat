@@ -1,0 +1,82 @@
+@import './variables.css';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open sans', 'Roboto', sans-serif;
+  background-color : var(--bg-dark);
+  color: var(--text-light);
+}
+
+.container{
+  margin: 0 auto;
+  padding-inline: 1rem;
+  max-width: 700px;
+}
+
+.d_none{
+  display: none;
+}
+
+.card{
+  margin: 3rem auto;
+  background-color: #252525;
+  padding: 1rem 3rem 2rem 3rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.form_control{
+  width: 100%;
+  display: block;
+  padding: .4rem;
+  border-radius: var(--border-radius);
+  border: none;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.btn{
+  text-decoration: none;
+  font-size: .8rem;
+  border: none;
+  padding: .4rem 1.5rem;
+  border-radius: var(--border-radius);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn_block{
+  display: block;
+  width: 100%;
+}
+
+.btn_primary{
+  background-color: var(--btn-primary-bg);
+  color: #fff;
+}
+
+.btn_primary:hover{
+  background-color: var(--btn-primary-hover);
+  transition: ease-in .3s;
+}
+
+::-webkit-scrollbar{
+  width: 12px;
+}
+::-webkit-scrollbar-track{
+  background-color: var(--bg-dark);
+}
+::-webkit-scrollbar-thumb{
+  background-color: #105fb4;
+  border-radius: 6px;
+  border: 3px solid var(--bg-dark);
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: #0d4b8f;
+}

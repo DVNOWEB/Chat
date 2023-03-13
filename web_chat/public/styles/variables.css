@@ -1,0 +1,28 @@
+:root{
+  /* color */
+  color-scheme: dark;
+  --bg-dark: #2a2a2a;
+  --text-light: #fff;
+  --primary-bg: #105fb4;
+
+  /* chat window */
+  --chat-window-bg: #252525;
+
+  /* background color message left */
+  --message-left-bg: rgba(43, 53, 53, 0.455);
+
+  /* background color message right */
+  --message-right-bg: rgba(42, 103, 104, 0.455);
+
+
+  /* border */
+  --border-radius: 0.5rem;
+  --box-shadow: 0 0 0.5rem 0.1rem rgba(0,0,0,0.5);
+
+  /* button */
+  --btn-primary-bg: #105fb4;
+  --btn-primary-hover: #0d4b8f;
+
+  --btn-secondary-bg: #eb9124;
+  --btn-secondary-hover: #d0741e;
+}

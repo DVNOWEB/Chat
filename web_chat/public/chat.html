@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebChat</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="/socket.io/socket.io.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card chat_card">
+
+      <header class="chat_header">
+        <div class="header_column">
+          <h1>Chat<b>ON</b></h1>
+          <p id="me">Danonino</p>
+        </div>
+        <a href="index.html" class="btn btn_primary">Chat<b class="red">OFF</b></a>
+      </header>
+
+      <div class="chat">
+        <div class="chat_window">
+          <div class="messages">
+
+            <!-- <div class="single_message">
+              <p class="single_message_name">Dvno78</p>
+              <p class="single_message_msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                accusantium.
+              </p>
+              <div class="message_timestamp">13:37</div>
+            </div>
+
+            <div class="single_message right">
+              <p class="single_message_name"></p>
+              <p class="single_message_msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                accusantium.
+              </p>
+              <div class="message_timestamp">13:37</div>
+            </div>
+
+            <p class="inline_feedback">Dano has entered the chat</p> -->
+
+          </div>
+        </div>
+
+        <form id="chat_form" class="chat_form">
+          <div id="feedback" class="d_none"></div>
+          <!-- <input type="text" class="form_control"> -->
+          <div class="input_group">
+            <textarea id="chat_message" class="form_control" cols="10" rows="1" placeholder="...your message"></textarea>
+            <button id="send" class="btn btn_primary btn_block">Let`s Chat</button>
+          </div>
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
