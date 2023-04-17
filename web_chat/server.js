@@ -16,7 +16,7 @@ const server = http.createServer(app)
 app.use(express.static(path.join(__dirname, 'public')))
 
 // start server
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 9999
 
 server.listen(PORT, () => console.log('Server running on http://localhost:' + PORT))
 
